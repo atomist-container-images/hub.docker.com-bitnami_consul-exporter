@@ -1,12 +1,24 @@
-# Tags: latest, 0.8.0-debian-10-r74, 0.8.0, 0-debian-10, 0
+# Tags: latest, 0.8.0-debian-10-r78, 0.8.0, 0-debian-10, 0
 FROM bitnami/consul-exporter:latest
-FROM bitnami/consul-exporter:0.8.0-debian-10-r74
+FROM bitnami/consul-exporter:0.8.0-debian-10-r78
 FROM bitnami/consul-exporter:0.8.0
 FROM bitnami/consul-exporter:0-debian-10
 FROM bitnami/consul-exporter:0
 
 # Tags: _
 FROM bitnami/consul-exporter:_
+
+# Tags: 0.8.0-debian-10-r77
+FROM bitnami/consul-exporter:0.8.0-debian-10-r77
+
+# Tags: 0.8.0-debian-10-r76
+FROM bitnami/consul-exporter:0.8.0-debian-10-r76
+
+# Tags: 0.8.0-debian-10-r75
+FROM bitnami/consul-exporter:0.8.0-debian-10-r75
+
+# Tags: 0.8.0-debian-10-r74
+FROM bitnami/consul-exporter:0.8.0-debian-10-r74
 
 # Tags: 0.8.0-debian-10-r73
 FROM bitnami/consul-exporter:0.8.0-debian-10-r73
@@ -82,15 +94,3 @@ FROM bitnami/consul-exporter:0.8.0-debian-10-r50
 
 # Tags: 0.8.0-debian-10-r49
 FROM bitnami/consul-exporter:0.8.0-debian-10-r49
-
-# Tags: 0.8.0-debian-10-r48
-FROM bitnami/consul-exporter:0.8.0-debian-10-r48
-
-# Tags: 0.8.0-debian-10-r47
-FROM bitnami/consul-exporter:0.8.0-debian-10-r47
-
-# Tags: 0.8.0-debian-10-r46
-FROM bitnami/consul-exporter:0.8.0-debian-10-r46
-
-# Tags: 0.8.0-debian-10-r45
-FROM bitnami/consul-exporter:0.8.0-debian-10-r45
